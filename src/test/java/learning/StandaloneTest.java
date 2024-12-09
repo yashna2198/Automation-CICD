@@ -66,7 +66,7 @@ public class StandaloneTest {
 		String text = driver.findElement(By.className("hero-primary")).getText();
 		Assert.assertTrue(text.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		
-		driver.quit(); //Addin comments for webhook job to run
+		driver.quit(); //Adding comments for webhook job to run 01
 		
 		
 	}
